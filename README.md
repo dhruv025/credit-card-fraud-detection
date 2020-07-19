@@ -1,6 +1,6 @@
 # credit-card-fraud-detection
 
-#### In this project, our challenge is to recognize fraudulent credit card transactions so that the customers of credit card companies are not charged for items that they did not purchase. In this, two unsupervised ML algorithms Isolation Forest and Local Outlier Factor(LOF) are used for fraud detection.
+### In this project, our challenge is to recognize fraudulent credit card transactions so that the customers of credit card companies are not charged for items that they did not purchase. In this, two unsupervised ML algorithms Isolation Forest and Local Outlier Factor(LOF) are used for fraud detection.
 
 ## Major Steps followed during the project:
 
