@@ -1,14 +1,14 @@
 # credit-card-fraud-detection
 
-In this project, our challenge is to recognize fraudulent credit card transactions so that the customers of credit card companies are not charged for items that they did not purchase. In this, two unsupervised ML algorithms Isolation Forest and Local Outlier Factor(LOF) are used for fraud detection.
+## In this project, our challenge is to recognize fraudulent credit card transactions so that the customers of credit card companies are not charged for items that they did not purchase. In this, two unsupervised ML algorithms Isolation Forest and Local Outlier Factor(LOF) are used for fraud detection.
 
-Major Steps followed during the project -
+## Major Steps followed during the project:
 
-1.Data Gathering–
+### 1.Data Gathering:
 
 Dataset has been downloaded from kaggle. The dataset consist of 284807 rows and 31 columns. In this dataset, the class column has two values 0 and 1 in which 0 indicates that particular case is not fraud and 1 indicate that particular case is fraud.
 
-2.Feature Engineering– 
+### 2.Feature Engineering:
 
 In this, first of all I have checked for the missing values in the dataset if any. In this, dataset there are no missing values.
 
@@ -19,7 +19,7 @@ Since, the dataset contains only numerical values, so is in this dataset we don�
 
 Now, our dataset is ready for applying to any machine learning algorithm.
 
-3.Model Training– 
+### 3.Model Training:
 
 In this first of all, I have divided the dataset into train and test using the train_test_split method of sklearn library.
 
@@ -28,7 +28,7 @@ For training the dataset, I have used two classification algorithms Isolation Fo
 Since, only accuracy doesn’t tells that how good our model is. So, we have to calculate other performance metrics such as precision, recall, support. These performance metrics can be calculated with the help of classification report.
 A classification report is used to measure the quality of predictions from a classification algorithm.
 
-Observation -
+### Observation:
 
 1.Isolation Forest detected 683 errors whereas Local Outlier Factor detected 935 errors.
 
